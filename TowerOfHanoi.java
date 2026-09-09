@@ -2,8 +2,8 @@ import java.util.Scanner;
 public class TowerOfHanoi{
 	public static void main (String[] args){
 		findTowerKey t = new findTowerKey();
-		int n = 5 ;
-		t.move(n,'A','B','C');
+		int n = 5 ;//盘子数量
+		t.move(n,'A','B','C');//a,b,c代表三个柱子
 	}
 }
 class findTowerKey{
